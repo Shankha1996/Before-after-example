@@ -1,0 +1,17 @@
+.pseudo{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  /* display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap; */
+}
+
+.pseudo h1::before{
+  content: "~";
+
+}
+
+.pseudo h1::after{
+  content: "~";
+}
